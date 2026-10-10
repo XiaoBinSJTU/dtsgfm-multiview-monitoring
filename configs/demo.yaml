@@ -1,0 +1,21 @@
+data:
+  num_views: 4
+  num_classes: 6
+  sequence_length: 64
+
+model:
+  hidden_dim: 32
+  dropout: 0.15
+  delay_radius: 3
+  mask_min: 0.10
+  mask_max: 0.50
+  residual_weight: 0.20
+  relation_uncertainty_scale: 0.50
+  relation_offset_scale: 2.00
+
+training:
+  loss_weights:
+    reconstruction: 0.20
+    state_consistency: 0.15
+    physical_consistency: 0.15
+

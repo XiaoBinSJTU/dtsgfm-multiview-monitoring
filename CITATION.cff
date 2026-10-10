@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript. Final publication metadata is pending."
+title: "DTSGFM Multi-View Monitoring Core Implementation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Xiao
+    given-names: Bin
+  - family-names: Chen
+    given-names: Liang
+  - family-names: Zheng
+    given-names: Yu
+  - family-names: Bao
+    given-names: Jinsong
+preferred-citation:
+  type: article
+  title: "Digital twin spatiotemporal graph fusion modeling for low-quality multi-view equipment monitoring under harsh operating conditions"
+  authors:
+    - family-names: Xiao
+      given-names: Bin
+    - family-names: Chen
+      given-names: Liang
+    - family-names: Zheng
+      given-names: Yu
+    - family-names: Bao
+      given-names: Jinsong
+
